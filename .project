@@ -15,6 +15,58 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-14444863524650285875.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-14444863524650285875.groovy</location>
+		</link>
+		<link>
+			<name>kat-14597489094038334533.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-14597489094038334533.groovy</location>
+		</link>
+		<link>
+			<name>kat-16396138868909127544.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-16396138868909127544.groovy</location>
+		</link>
+		<link>
+			<name>kat-17875760140711856524.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-17875760140711856524.groovy</location>
+		</link>
+		<link>
+			<name>kat-18369852900046275011.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-18369852900046275011.groovy</location>
+		</link>
+		<link>
+			<name>kat-18402568501679678449.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-18402568501679678449.groovy</location>
+		</link>
+		<link>
+			<name>kat-6910021809056518302.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-6910021809056518302.groovy</location>
+		</link>
+		<link>
+			<name>kat-8318158412025184809.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-8318158412025184809.groovy</location>
+		</link>
+		<link>
+			<name>kat-8668207658745751453.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-8668207658745751453.groovy</location>
+		</link>
+		<link>
+			<name>kat-9235695857499180645.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACER/AppData/Local/Temp/Katalon/Web Services/kat-9235695857499180645.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1707717638353</id>
@@ -45,6 +97,24 @@
 		</filter>
 		<filter>
 			<id>1707718689546</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1707721377058</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1707721377071</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

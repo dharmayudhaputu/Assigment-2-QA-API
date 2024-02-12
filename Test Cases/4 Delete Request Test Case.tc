@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>4 Delete Request Test Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>14c21a38-e3bf-450c-a6a9-ae84da25aa72</testCaseGuid>
+   <testCaseGuid>f8ee65f8-d2e2-43ad-b5da-b3ceaa2496f3</testCaseGuid>
 </TestCaseEntity>
