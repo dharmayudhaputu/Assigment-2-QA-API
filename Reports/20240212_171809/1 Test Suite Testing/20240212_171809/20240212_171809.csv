@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 Test Suite Testing,,,,12-02-2024 17:18:16,12-02-2024 17:18:36,19.787s,PASSED
+,,,,,,,
+Test Cases/URL 1/1 POST Test Case,,,,12-02-2024 17:18:16,12-02-2024 17:18:22,5.629s,PASSED
+"response = sendRequest(findTestObject(""URL 1/1 POST Request""))",,,,12-02-2024 17:18:17,12-02-2024 17:18:20,3.102s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-02-2024 17:18:20,12-02-2024 17:18:20,0.026s,PASSED
+Video,,,,12-02-2024 17:18:22,12-02-2024 17:18:22,0.000s,PASSED
+,,,,,,,
+Test Cases/URL 1/2 PUT Request Test Case,,,,12-02-2024 17:18:22,12-02-2024 17:18:24,2.458s,PASSED
+"response2 = sendRequest(findTestObject(""URL 1/2 PUT Request""))",,,,12-02-2024 17:18:22,12-02-2024 17:18:22,0.382s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,12-02-2024 17:18:22,12-02-2024 17:18:22,0.003s,PASSED
+Video,,,,12-02-2024 17:18:24,12-02-2024 17:18:24,0.001s,PASSED
+,,,,,,,
+Test Cases/URL 1/3 PATCH Request Test Case,,,,12-02-2024 17:18:24,12-02-2024 17:18:27,2.971s,PASSED
+"response = sendRequest(findTestObject(""URL 1/3 PATCH Request""))",,,,12-02-2024 17:18:24,12-02-2024 17:18:25,0.880s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 17:18:25,12-02-2024 17:18:25,0.003s,PASSED
+Video,,,,12-02-2024 17:18:27,12-02-2024 17:18:27,0.001s,PASSED
+,,,,,,,
+Test Cases/URL 1/4 Delete Request Test Case,,,,12-02-2024 17:18:27,12-02-2024 17:18:30,3.040s,PASSED
+"response = sendRequest(findTestObject(""URL 1/4 DELETE Request""))",,,,12-02-2024 17:18:27,12-02-2024 17:18:28,0.885s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 17:18:28,12-02-2024 17:18:28,0.004s,PASSED
+Video,,,,12-02-2024 17:18:30,12-02-2024 17:18:30,0.001s,PASSED
+,,,,,,,
+Test Cases/URL 2/5 POST Test Case,,,,12-02-2024 17:18:30,12-02-2024 17:18:33,2.479s,PASSED
+"response = sendRequest(findTestObject(""URL 2/5 POST Request""))",,,,12-02-2024 17:18:30,12-02-2024 17:18:31,0.352s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-02-2024 17:18:31,12-02-2024 17:18:31,0.003s,PASSED
+Video,,,,12-02-2024 17:18:33,12-02-2024 17:18:33,0.001s,PASSED
+,,,,,,,
+Test Cases/URL 2/6 DELETE Test Case,,,,12-02-2024 17:18:33,12-02-2024 17:18:36,3.010s,PASSED
+"response = sendRequest(findTestObject(""URL 2/6 DELETE Request""))",,,,12-02-2024 17:18:33,12-02-2024 17:18:34,0.888s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 17:18:34,12-02-2024 17:18:34,0.002s,PASSED
+Video,,,,12-02-2024 17:18:36,12-02-2024 17:18:36,0.001s,PASSED
