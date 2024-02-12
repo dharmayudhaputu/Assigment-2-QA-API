@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 Test Suite Testing" time="19.787" tests="6" failures="0" errors="0">
+   <testsuite name="1 Test Suite Testing" tests="6" failures="0" errors="0" time="19.787" skipped="0" timestamp="12-02-2024T17:18:16" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suite Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Assigment-2-QA-API\\Reports\\20240212_171809\\1 Test Suite Testing\\20240212_171809"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Assigment-2-QA-API\\Reports\\20240212_171809\\1 Test Suite Testing\\20240212_171809\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="hostAddress" value="172.16.213.233"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/URL 1/1 POST Test Case" time="5.629" classname="Test Cases/URL 1/1 POST Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:18:16 - [TEST_CASE][PASSED] - Test Cases/URL 1/1 POST Test Case: Test Cases/URL 1/1 POST Test Case
+
+12-02-2024T17:18:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL 1/1 POST Request")): Send request successfully
+
+12-02-2024T17:18:20 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_171809\1 Test Suite Testing\20240212_171809\requests\main\0.har
+
+12-02-2024T17:18:20 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:18:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-02-2024T17:18:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:18:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL 1/1 POST Test Case' .
+
+12-02-2024T17:18:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL 1/1 POST Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL 1/2 PUT Request Test Case" time="2.458" classname="Test Cases/URL 1/2 PUT Request Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:18:22 - [TEST_CASE][PASSED] - Test Cases/URL 1/2 PUT Request Test Case: Test Cases/URL 1/2 PUT Request Test Case
+
+12-02-2024T17:18:22 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("URL 1/2 PUT Request")): Send request successfully
+
+12-02-2024T17:18:22 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_171809\1 Test Suite Testing\20240212_171809\requests\main\1.har
+
+12-02-2024T17:18:22 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:18:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+12-02-2024T17:18:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:18:24 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL 1/2 PUT Request Test Case' .
+
+12-02-2024T17:18:24 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL 1/2 PUT Request Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL 1/3 PATCH Request Test Case" time="2.971" classname="Test Cases/URL 1/3 PATCH Request Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:18:24 - [TEST_CASE][PASSED] - Test Cases/URL 1/3 PATCH Request Test Case: Test Cases/URL 1/3 PATCH Request Test Case
+
+12-02-2024T17:18:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL 1/3 PATCH Request")): Send request successfully
+
+12-02-2024T17:18:25 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_171809\1 Test Suite Testing\20240212_171809\requests\main\2.har
+
+12-02-2024T17:18:25 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:18:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T17:18:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:18:27 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL 1/3 PATCH Request Test Case' .
+
+12-02-2024T17:18:27 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL 1/3 PATCH Request Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL 1/4 Delete Request Test Case" time="3.04" classname="Test Cases/URL 1/4 Delete Request Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:18:27 - [TEST_CASE][PASSED] - Test Cases/URL 1/4 Delete Request Test Case: Test Cases/URL 1/4 Delete Request Test Case
+
+12-02-2024T17:18:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL 1/4 DELETE Request")): Send request successfully
+
+12-02-2024T17:18:28 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_171809\1 Test Suite Testing\20240212_171809\requests\main\3.har
+
+12-02-2024T17:18:28 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:18:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T17:18:28 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:18:30 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL 1/4 Delete Request Test Case' .
+
+12-02-2024T17:18:30 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL 1/4 Delete Request Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL 2/5 POST Test Case" time="2.479" classname="Test Cases/URL 2/5 POST Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:18:30 - [TEST_CASE][PASSED] - Test Cases/URL 2/5 POST Test Case: Test Cases/URL 2/5 POST Test Case
+
+12-02-2024T17:18:30 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL 2/5 POST Request")): Send request successfully
+
+12-02-2024T17:18:31 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_171809\1 Test Suite Testing\20240212_171809\requests\main\4.har
+
+12-02-2024T17:18:31 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:18:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-02-2024T17:18:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:18:33 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL 2/5 POST Test Case' .
+
+12-02-2024T17:18:33 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL 2/5 POST Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/URL 2/6 DELETE Test Case" time="3.01" classname="Test Cases/URL 2/6 DELETE Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T17:18:33 - [TEST_CASE][PASSED] - Test Cases/URL 2/6 DELETE Test Case: Test Cases/URL 2/6 DELETE Test Case
+
+12-02-2024T17:18:33 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("URL 2/6 DELETE Request")): Send request successfully
+
+12-02-2024T17:18:34 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_171809\1 Test Suite Testing\20240212_171809\requests\main\5.har
+
+12-02-2024T17:18:34 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T17:18:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T17:18:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T17:18:36 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/URL 2/6 DELETE Test Case' .
+
+12-02-2024T17:18:36 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/URL 2/6 DELETE Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T17:18:16 - [TEST_SUITE][PASSED] - 1 Test Suite Testing: Test Cases/URL 2/6 DELETE Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+1
+00:00:00,036 --> 00:00:00,853
+1. response = sendRequest(findTestObject("URL 2/6 DELETE Request"))
+
+2
+00:00:00,862 --> 00:00:00,866
+5. verifyResponseStatusCode(response, 200)
+

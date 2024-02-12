@@ -1,0 +1,8 @@
+1
+00:00:00,048 --> 00:00:00,895
+1. response2 = sendRequest(findTestObject("2 PUT Request"))
+
+2
+00:00:00,896 --> 00:00:00,902
+5. verifyResponseStatusCode(response2, 200)
+

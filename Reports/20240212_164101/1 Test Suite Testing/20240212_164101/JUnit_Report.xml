@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1 Test Suite Testing" time="13.621" tests="4" failures="0" errors="0">
+   <testsuite name="1 Test Suite Testing" tests="4" failures="0" errors="0" time="13.621" skipped="0" timestamp="12-02-2024T16:41:08" hostname="ACER - LAPTOP-DI70DTOM" id="Test Suites/1 Test Suite Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\Assigment-2-QA-API\\Reports\\20240212_164101\\1 Test Suite Testing\\20240212_164101"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\Assigment-2-QA-API\\Reports\\20240212_164101\\1 Test Suite Testing\\20240212_164101\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ACER - LAPTOP-DI70DTOM"/>
+         <property name="hostAddress" value="172.16.213.233"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+      </properties>
+      <testcase name="Test Cases/1 POST Test Case" time="4.954" classname="Test Cases/1 POST Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:41:08 - [TEST_CASE][PASSED] - Test Cases/1 POST Test Case: Test Cases/1 POST Test Case
+
+12-02-2024T16:41:09 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("1 POST Request")): Send request successfully
+
+12-02-2024T16:41:11 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_164101\1 Test Suite Testing\20240212_164101\requests\main\0.har
+
+12-02-2024T16:41:11 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:41:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-02-2024T16:41:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:41:13 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/1 POST Test Case' .
+
+12-02-2024T16:41:13 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/1 POST Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/2 PUT Request Test Case" time="3.067" classname="Test Cases/2 PUT Request Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:41:13 - [TEST_CASE][PASSED] - Test Cases/2 PUT Request Test Case: Test Cases/2 PUT Request Test Case
+
+12-02-2024T16:41:14 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("2 PUT Request")): Send request successfully
+
+12-02-2024T16:41:14 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_164101\1 Test Suite Testing\20240212_164101\requests\main\1.har
+
+12-02-2024T16:41:14 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:41:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response2, 200): Verify response status code successfully
+
+12-02-2024T16:41:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:41:17 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/2 PUT Request Test Case' .
+
+12-02-2024T16:41:17 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/2 PUT Request Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/3 PATCH Request Test Case" time="2.467" classname="Test Cases/3 PATCH Request Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:41:17 - [TEST_CASE][PASSED] - Test Cases/3 PATCH Request Test Case: Test Cases/3 PATCH Request Test Case
+
+12-02-2024T16:41:17 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("3 PATCH Request")): Send request successfully
+
+12-02-2024T16:41:17 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_164101\1 Test Suite Testing\20240212_164101\requests\main\2.har
+
+12-02-2024T16:41:17 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:41:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T16:41:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:41:19 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/3 PATCH Request Test Case' .
+
+12-02-2024T16:41:19 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/3 PATCH Request Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/4 Delete Request Test Case" time="2.937" classname="Test Cases/4 Delete Request Test Case" status="PASSED">
+         <system-out><![CDATA[12-02-2024T16:41:19 - [TEST_CASE][PASSED] - Test Cases/4 Delete Request Test Case: Test Cases/4 Delete Request Test Case
+
+12-02-2024T16:41:19 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("4 DELETE Request")): Send request successfully
+
+12-02-2024T16:41:20 - [MESSAGE][INFO] - HAR: C:\Users\ACER\git\Assigment-2-QA-API\Reports\20240212_164101\1 Test Suite Testing\20240212_164101\requests\main\3.har
+
+12-02-2024T16:41:20 - [MESSAGE][PASSED] - Send request successfully
+
+12-02-2024T16:41:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-02-2024T16:41:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-02-2024T16:41:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/4 Delete Request Test Case' .
+
+12-02-2024T16:41:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/4 Delete Request Test Case' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-02-2024T16:41:08 - [TEST_SUITE][PASSED] - 1 Test Suite Testing: Test Cases/4 Delete Request Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
