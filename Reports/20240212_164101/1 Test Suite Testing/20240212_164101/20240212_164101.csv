@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 Test Suite Testing,,,,12-02-2024 16:41:08,12-02-2024 16:41:22,13.621s,PASSED
+,,,,,,,
+Test Cases/1 POST Test Case,,,,12-02-2024 16:41:08,12-02-2024 16:41:13,4.954s,PASSED
+"response = sendRequest(findTestObject(""1 POST Request""))",,,,12-02-2024 16:41:09,12-02-2024 16:41:11,2.479s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,12-02-2024 16:41:11,12-02-2024 16:41:11,0.020s,PASSED
+Video,,,,12-02-2024 16:41:13,12-02-2024 16:41:13,0.001s,PASSED
+,,,,,,,
+Test Cases/2 PUT Request Test Case,,,,12-02-2024 16:41:13,12-02-2024 16:41:17,3.067s,PASSED
+"response2 = sendRequest(findTestObject(""2 PUT Request""))",,,,12-02-2024 16:41:14,12-02-2024 16:41:14,0.941s,PASSED
+"verifyResponseStatusCode(response2, 200)",,,,12-02-2024 16:41:14,12-02-2024 16:41:14,0.003s,PASSED
+Video,,,,12-02-2024 16:41:17,12-02-2024 16:41:17,0.001s,PASSED
+,,,,,,,
+Test Cases/3 PATCH Request Test Case,,,,12-02-2024 16:41:17,12-02-2024 16:41:19,2.467s,PASSED
+"response = sendRequest(findTestObject(""3 PATCH Request""))",,,,12-02-2024 16:41:17,12-02-2024 16:41:17,0.363s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 16:41:17,12-02-2024 16:41:17,0.006s,PASSED
+Video,,,,12-02-2024 16:41:19,12-02-2024 16:41:19,0.001s,PASSED
+,,,,,,,
+Test Cases/4 Delete Request Test Case,,,,12-02-2024 16:41:19,12-02-2024 16:41:22,2.937s,PASSED
+"response = sendRequest(findTestObject(""4 DELETE Request""))",,,,12-02-2024 16:41:19,12-02-2024 16:41:20,0.832s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,12-02-2024 16:41:20,12-02-2024 16:41:20,0.002s,PASSED
+Video,,,,12-02-2024 16:41:22,12-02-2024 16:41:22,0.002s,PASSED

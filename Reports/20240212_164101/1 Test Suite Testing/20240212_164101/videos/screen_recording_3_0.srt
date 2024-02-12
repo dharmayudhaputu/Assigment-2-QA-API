@@ -1,0 +1,8 @@
+1
+00:00:00,046 --> 00:00:00,408
+1. response = sendRequest(findTestObject("3 PATCH Request"))
+
+2
+00:00:00,409 --> 00:00:00,418
+5. verifyResponseStatusCode(response, 200)
+
