@@ -1,0 +1,8 @@
+1
+00:00:00,043 --> 00:00:00,917
+1. response = sendRequest(findTestObject("URL 2/5 POST Request"))
+
+2
+00:00:00,918 --> 00:00:00,924
+5. verifyResponseStatusCode(response, 201)
+
